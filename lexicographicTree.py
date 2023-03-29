@@ -1,6 +1,6 @@
 from string import ascii_letters
 
-def test():
+def lexicoGraphicTree():
         words= {char:None for char in ascii_letters}
         print(words)
         word = 'nothing'
@@ -8,4 +8,4 @@ def test():
 
 
 if __name__=="__main__":
-    test()
+    lexicoGraphicTree()
