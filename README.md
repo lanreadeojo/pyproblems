@@ -1,2 +1,2 @@
 # pyproblems
-each file contains a solution to a problem using python
+each file contains a solution to a moderate to hard algorithmic problem using python
