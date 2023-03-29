@@ -10,6 +10,7 @@ def isUnique(word):
 
 
 
+
 if __name__ == "__main__":
     test = input()
     print(isUnique(test))
