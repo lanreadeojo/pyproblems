@@ -1,12 +1,17 @@
 def checkPermutation(word1, word2):
-    new_word1 = ''.join(sorted(word1))
-    new_word2 = ''.join(sorted(word2))
-   
-    if (new_word1 == new_word2):
-        return True
-    else:
+    if len(word1) != len(word2):
         return False
-    
+    characters = [0]*128
+    for c in word1:
+        characters[ord(c)] += 1
+
+    for c in word2:
+        characters[index:=ord(c)] -=1
+        if(characters[index] < 0):
+            return False
+    return True
+               
+
 
 if __name__ == "__main__":
     first = input()
